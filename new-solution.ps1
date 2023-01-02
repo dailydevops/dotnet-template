@@ -15,6 +15,3 @@ $location = Get-Location
 
 New-Solution -SolutionName $SolutionName -Output $location
 Remove-Item -Path "$location\new-solution.ps1" -Force
-
-Write-Output "Reinitializing git repository ..."
-git init | Out-Null
