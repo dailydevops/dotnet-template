@@ -1,4 +1,4 @@
-name: Enable Auto-Merge for Dependabot
+name: Dependabot Auto-merge
 
 on:
   pull_request:
