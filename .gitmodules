@@ -1,3 +1,3 @@
 [submodule "eng"]
 	path = eng
-	url = https://github.com/NetEvolve/engineering-dotnet.git
+	url = https://github.com/dailydevops/dotnet-engineering.git
