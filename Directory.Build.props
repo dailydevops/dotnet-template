@@ -6,5 +6,7 @@
   </PropertyGroup>
 
   <Import Project="$(DirEngineeringSettings)sln.build.props" />
+  <Import Project="$(DirEngineeringSettings)src.build.props" Condition=" !$(MSBuildProjectName.Contains('.Tests')) " />
+  <Import Project="$(DirEngineeringSettings)tests.build.props" Condition=" $(MSBuildProjectName.Contains('.Tests')) " />
 
 </Project>

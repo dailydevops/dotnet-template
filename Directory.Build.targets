@@ -1,5 +1,7 @@
 <Project>
 
   <Import Project="$(DirEngineeringSettings)sln.build.targets" />
+  <Import Project="$(DirEngineeringSettings)src.build.targets" Condition=" !$(MSBuildProjectName.Contains('.Tests')) " />
+  <Import Project="$(DirEngineeringSettings)tests.build.targets" Condition=" $(MSBuildProjectName.Contains('.Tests')) " />
 
 </Project>
