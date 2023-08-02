@@ -29,7 +29,11 @@ param (
   # Parameter help description
   [Parameter(Mandatory = $false)]
   [Switch]
-  $DisableIntegrationTests
+  $DisableIntegrationTests,
+
+  [Parameter(Mandatory = $false)]
+  [Switch]
+  $EnableProjectGrouping
 )
 
 . .\eng\scripts\new-project.ps1
@@ -42,4 +46,5 @@ New-Project `
   -DisableUnitTests $DisableUnitTests `
   -DisableIntegrationTests $DisableIntegrationTests `
   -SolutionFile "###SOLUTION###" `
-  -OutputDirectory (Get-Location)
+  -OutputDirectory (Get-Location) `
+  -EnableProjectGrouping $EnableProjectGrouping
