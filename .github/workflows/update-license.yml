@@ -26,4 +26,4 @@ jobs:
       if: steps.license.outputs.pullRequestNumber != ''
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: gh pr merge --squash --delete-branch ${{ steps.license.outputs.pullRequestNumber }}
+      run: gh pr merge --squash --admin --delete-branch ${{ steps.license.outputs.pullRequestNumber }}
