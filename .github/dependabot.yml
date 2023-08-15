@@ -12,7 +12,7 @@ updates:
     commit-message:
       prefix: "build(ci)"
     labels:
-      - "dependency"
+      - "dependency-actions"
 
   - package-ecosystem: "nuget"
     directory: "/"
@@ -21,14 +21,20 @@ updates:
     commit-message:
       prefix: "build(deps)"
     labels:
-      - "dependency"
+      - "dependency-nuget"
     open-pull-requests-limit: 20
     groups:
-      dependencies:
+      coverlet:
         patterns:
           - "coverlet*"
+      testcontainers:
+        patterns:
           - "testcontainers*"
+      verify:
+        patterns:
           - "verify*"
+      xunit:
+        patterns:
           - "xunit*"
 
   - package-ecosystem: "gitsubmodule"
@@ -37,3 +43,5 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "build(mods)"
+    labels:
+      - "dependency-gitmodule"
