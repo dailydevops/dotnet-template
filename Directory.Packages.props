@@ -6,7 +6,7 @@
     <GlobalPackageReference Include="CSharpier.MSBuild" Version="0.21.0" />
     <GlobalPackageReference Include="GitVersion.MsBuild" Version="5.11.1" />
     <GlobalPackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" />
-    <GlobalPackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.0" />
+    <GlobalPackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.3" />
     <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
     <GlobalPackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.4.27" />
   </ItemGroup>
