@@ -24,11 +24,17 @@ updates:
       - "dependency"
     open-pull-requests-limit: 20
     groups:
-      dependencies:
+      coverlet:
         patterns:
           - "coverlet*"
+      testcontainers:
+        patterns:
           - "testcontainers*"
+      verify:
+        patterns:
           - "verify*"
+      xunit:
+        patterns:
           - "xunit*"
 
   - package-ecosystem: "gitsubmodule"
