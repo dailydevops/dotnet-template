@@ -8,13 +8,13 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      # Check for updates to GitHub Actions every weekday
       interval: "weekly"
     commit-message:
       prefix: "build(ci)"
     labels:
       - "dependency"
-  - package-ecosystem: "nuget" # See documentation for possible values
+
+  - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "daily"
@@ -22,6 +22,15 @@ updates:
       prefix: "build(deps)"
     labels:
       - "dependency"
+    open-pull-requests-limit: 20
+    groups:
+      dependencies:
+        patterns:
+          - "coverlet*"
+          - "testcontainers*"
+          - "verify*"
+          - "xunit*"
+
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
