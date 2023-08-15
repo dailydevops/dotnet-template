@@ -8,7 +8,7 @@
     <GlobalPackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.3" />
     <GlobalPackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.0" />
     <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
-    <GlobalPackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.4.27" />
+    <GlobalPackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.7.30" />
   </ItemGroup>
 
   <ItemGroup>
