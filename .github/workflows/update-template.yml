@@ -15,5 +15,5 @@ jobs:
 
       - uses: ahmadnassri/action-template-repository-sync@v2
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.TEMPLATE_SYNC }}
           dry-run: true
