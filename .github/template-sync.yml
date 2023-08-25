@@ -1,6 +1,13 @@
 additional:
+  - "analyzer"
+  - "article.benchmarks"
   - "describe"
+  - "develop"
+  - "extensions.test"
   - "guard"
+  - "healthchecks"
+  - "http.correlation"
+  - "trydispose"
 
 files:
   - "!**/*"
