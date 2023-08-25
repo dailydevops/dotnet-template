@@ -1,5 +1,5 @@
 dependents:
-  - "*"
+  - "guard"
 
 additional:
   - "describe"
