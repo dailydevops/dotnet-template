@@ -1,6 +1,5 @@
 additional:
   - "describe"
-  - "http.correlation"
 
 files:
   - "!**/*"
