@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: ahmadnassri/action-template-repository-sync@v2
+      - uses: euphoricsystems/action-sync-template-repository@v2.5.1
         with:
           github-token: ${{ secrets.TEMPLATE_SYNC }}
           dry-run: true
