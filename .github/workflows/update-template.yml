@@ -1,6 +1,12 @@
 name: Update template files
 
 on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   schedule:
     # https://crontab.guru/#5_5_*_*_1
     - cron: '5 5 * * 1'
