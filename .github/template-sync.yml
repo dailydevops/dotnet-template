@@ -3,6 +3,7 @@ additional:
   - "http.correlation"
 
 files:
+  - "!**/*"
   - ".gitignore"
   - ".csharpierignore"
 
