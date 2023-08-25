@@ -1,9 +1,13 @@
+.github/
+eng/
+
 **/*
+*
 
 !.github/dependabot.yml
 !.github/workflows/dependabot-merge.yml
 !.github/workflows/update-license.yml
 
-.editorconfig
-new-project.ps1
-update-solution.ps1
+!.editorconfig
+!new-project.ps1
+!update-solution.ps1
