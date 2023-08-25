@@ -7,9 +7,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    # https://crontab.guru/#5_5_*_*_1
-    - cron: '5 5 * * 1'
   workflow_dispatch:
 
 jobs:
