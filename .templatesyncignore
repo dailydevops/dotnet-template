@@ -1,9 +1,0 @@
-.github/
-eng/
-*
-
-!.github/dependabot.yml
-
-!.editorconfig
-!new-project.ps1
-!update-solution.ps1
