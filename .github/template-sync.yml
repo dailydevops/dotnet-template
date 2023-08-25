@@ -14,8 +14,6 @@ files:
   - ".csharpierignore"
   - ".editorconfig"
   - "GitVersion.yml"
-  - "new-project.ps1"
-  - "update-solution.ps1"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/workflows/dependabot-merge.yml"
