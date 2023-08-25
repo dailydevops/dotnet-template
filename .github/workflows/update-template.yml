@@ -1,0 +1,19 @@
+name: Update template files
+
+on:
+  schedule:
+    # https://crontab.guru/#5_5_*_*_1
+    - cron: '5 5 * * 1'
+  workflow_dispatch:
+
+jobs:
+  template-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ahmadnassri/action-template-repository-sync@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          dry-run: true
