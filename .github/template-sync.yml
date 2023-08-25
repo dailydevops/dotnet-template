@@ -1,0 +1,10 @@
+additional:
+  - "describe"
+
+files:
+  - ".gitignore"
+  - ".csharpierignore"
+
+  # you probably want to exclude these files:
+  - "!.github/workflows/template-sync.yml"
+  - "!.github/template-sync.yml"
