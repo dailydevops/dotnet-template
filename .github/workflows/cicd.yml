@@ -21,9 +21,9 @@ on:
 jobs:
   all:
     name: Build & Tests
-    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@53112058f174beec924c627f07793b7b62f2a93a
+    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@main
     with:
-      dotnet-logging: ${{ inputs.dotnet-logging | 'minimal' }}
+      dotnet-logging: ${{ inputs.dotnet-logging }}
       dotnet-version: |
         7.x
       solution: ###SOLUTION###
