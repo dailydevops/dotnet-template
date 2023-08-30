@@ -21,3 +21,4 @@ jobs:
         with:
           github-token: ${{ secrets.TEMPLATE_SYNC }}
           dry-run: false
+          skip-ci: true
