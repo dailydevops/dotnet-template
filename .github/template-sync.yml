@@ -3,6 +3,7 @@ additional:
   - "article.benchmarks"
   - "describe"
   - "develop"
+  - "extensions.strings"
   - "extensions.tasks"
   - "extensions.test"
   - "guard"
