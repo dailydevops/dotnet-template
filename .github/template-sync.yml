@@ -1,4 +1,5 @@
 additional:
+  - "arguments"
   - "analyzer"
   - "article.benchmarks"
   - "describe"
