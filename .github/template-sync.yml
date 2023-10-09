@@ -16,6 +16,7 @@ files:
   - "!**/*"
   - ".csharpierignore"
   - ".editorconfig"
+  - ".gitignore"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/workflows/dependabot-merge.yml"
