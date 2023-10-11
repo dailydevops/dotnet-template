@@ -20,6 +20,8 @@ files:
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/release-drafter.yml"
+  - ".github/ISSUE_TEMPLATE/**/*"
+  - ".github/PULL_REQUEST_TEMPLATE/**/*"
   - ".github/workflows/dependabot-merge.yml"
   - ".github/workflows/update-license.yml"
 
