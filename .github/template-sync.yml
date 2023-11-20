@@ -25,5 +25,6 @@ files:
   - ".github/workflows/update-license.yml"
 
   # you probably want to exclude these files:
+  - "!.github/workflows/dependabot-merge.yml"
   - "!.github/workflows/template-sync.yml"
   - "!.github/template-sync.yml"
