@@ -16,7 +16,6 @@ files:
   - "!**/*"
   - ".editorconfig"
   - ".gitignore"
-  - ".gitmodules"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/release-drafter.yml"
