@@ -21,7 +21,6 @@ files:
   - ".github/release-drafter.yml"
   - ".github/ISSUE_TEMPLATE/**/*"
   - ".github/PULL_REQUEST_TEMPLATE/**/*"
-  - ".github/workflows/cleanup-cache.yml"
   - ".github/workflows/update-license.yml"
 
   # you probably want to exclude these files:
