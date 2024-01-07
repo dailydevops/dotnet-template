@@ -1,6 +1,9 @@
 <Project>
 
-  <Import Project="$(DirEngineeringSettings)sln.packages.props" />
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
 
   <ItemGroup>
     <GlobalPackageReference Include="CSharpier.MSBuild" Version="0.26.3" />
