@@ -33,7 +33,11 @@ param (
 
   [Parameter(Mandatory = $false)]
   [Switch]
-  $EnableProjectGrouping
+  $EnableProjectGrouping,
+
+  [Parameter(Mandatory = $false)]
+  [Switch]
+  $DisableArchitectureTests
 )
 
 . .\eng\scripts\new-project.ps1
@@ -47,4 +51,5 @@ New-Project `
   -DisableIntegrationTests $DisableIntegrationTests `
   -SolutionFile "###SOLUTION###" `
   -OutputDirectory (Get-Location) `
-  -EnableProjectGrouping $EnableProjectGrouping
+  -EnableProjectGrouping $EnableProjectGrouping `
+  -DisableArchitectureTests $DisableArchitectureTests
