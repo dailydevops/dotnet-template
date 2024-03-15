@@ -1,16 +1,13 @@
 additional:
-  - "arguments"
-  - "analyzer"
-  - "article.benchmarks"
-  - "describe"
-  - "develop"
-  - "extensions.strings"
-  - "extensions.tasks"
-  - "extensions.test"
-  - "guard"
-  - "healthchecks"
-  - "http.correlation"
-  - "trydispose"
+  - analyzer
+  - arguments
+  - extensions.hosting.windows
+  - extensions.strings
+  - extensions.tasks
+  - extensions.test
+  - guard
+  - healthchecks
+  - http.correlation
 
 files:
   - "!**/*"
