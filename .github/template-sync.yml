@@ -1,6 +1,7 @@
 additional:
   - analyzer
   - arguments
+  - equaduct
   - extensions.hosting.winforms
   - extensions.strings
   - extensions.tasks
