@@ -1,13 +1,14 @@
 additional:
   - analyzer
   - arguments
-  - extensions.hosting.windows
+  - extensions.hosting.winforms
   - extensions.strings
   - extensions.tasks
   - extensions.test
   - guard
   - healthchecks
   - http.correlation
+  - sequentialguid
 
 files:
   - "!**/*"
