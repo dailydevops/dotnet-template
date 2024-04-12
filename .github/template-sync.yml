@@ -14,6 +14,7 @@ additional:
 files:
   - "!**/*"
   - ".editorconfig"
+  - ".gitattributes"
   - ".gitignore"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
