@@ -5,14 +5,14 @@ additional:
   - editorconfig
   - equaduct
   - extensions.hosting.winforms
-  - extensions.logging.measurement
-  - extensions.logging.xunit
   - extensions.strings
   - extensions.tasks
   - extensions.test
   - guard
   - healthchecks
   - http.correlation
+  - logging.measurement
+  - logging.xunit
   - sequentialguid
 
 files:
