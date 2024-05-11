@@ -15,15 +15,4 @@
     <GlobalPackageReference Include="SonarAnalyzer.CSharp" Version="9.16.0.82469" Condition=" '$(BuildingInsideVisualStudio)' == 'true' " />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageVersion Include="coverlet.collector" Version="6.0.0" />
-    <PackageVersion Include="coverlet.msbuild" Version="6.0.0" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-    <PackageVersion Include="Verify.Xunit" Version="22.5.0" />
-    <PackageVersion Include="xunit" Version="2.6.2" />
-    <PackageVersion Include="xunit.core" Version="2.6.2" />
-    <PackageVersion Include="xunit.runner.console" Version="2.6.2" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.4" />
-  </ItemGroup>
-
 </Project>

@@ -15,3 +15,5 @@ $location = Get-Location
 
 New-Solution -SolutionName $SolutionName -Output $location
 Remove-Item -Path "$location\new-solution.ps1" -Force
+Remove-Item -Path "$location\.github\template-sync.yml" -Force
+Remove-Item -Path "$location\.github\workflows\template-sync.yml" -Force

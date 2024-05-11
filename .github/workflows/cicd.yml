@@ -20,12 +20,13 @@ on:
 
 jobs:
   all:
+    if: github.run_id != 1
     name: Build & Tests
     uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@0.8.5
     with:
       disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
       dotnet-version: |
-        7.x
+        8.x
       solution: ###SOLUTION###
     secrets: inherit
