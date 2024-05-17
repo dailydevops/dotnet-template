@@ -15,6 +15,7 @@ additional:
   - guard
   - healthchecks
   - http.correlation
+  - logging.abstractions
   - logging.measurement
   - logging.xunit
   - sequentialguid
