@@ -1,3 +1,7 @@
+dependents:
+  - "*"
+  - "!develop"
+
 additional:
   - analyzer
   - arguments
