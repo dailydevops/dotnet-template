@@ -14,6 +14,7 @@ additional:
   - logging.abstractions
   - logging.file
   - logging.measurement
+  - logging.mstest
   - logging.xunit
   - projectbuilder
   - sequentialguid
