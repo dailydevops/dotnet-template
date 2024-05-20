@@ -12,6 +12,7 @@ additional:
   - healthchecks
   - http.correlation
   - logging.abstractions
+  - logging.file
   - logging.measurement
   - logging.xunit
   - projectbuilder
