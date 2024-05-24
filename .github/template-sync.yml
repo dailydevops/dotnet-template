@@ -21,6 +21,7 @@ additional:
   - logging.xunit
   - projectbuilder
   - sequentialguid
+  - sqlprettier
 
 files:
   - "!**/*"
