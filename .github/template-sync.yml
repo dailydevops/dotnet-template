@@ -19,7 +19,7 @@ additional:
   - logging.measurement
   - logging.mstest
   - logging.xunit
-  - projectbuilder
+  - projectbuilders
   - sequentialguid
   - sqlprettier
 
