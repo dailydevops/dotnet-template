@@ -3,10 +3,10 @@
 
 additional:
   - analyzer
+  - archiduct
   - arguments
   - article.benchmarks
   - editorconfig
-  - equaduct
   - extensions.hosting.winforms
   - extensions.strings
   - extensions.tasks
@@ -21,7 +21,6 @@ additional:
   - logging.xunit
   - projectbuilders
   - sequentialguid
-  - sqlprettier
 
 files:
   - "!**/*"
