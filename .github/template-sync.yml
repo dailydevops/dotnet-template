@@ -11,6 +11,7 @@ additional:
   - extensions.strings
   - extensions.tasks
   - extensions.test
+  - fluentvalue
   - guard
   - healthchecks
   - http.correlation
