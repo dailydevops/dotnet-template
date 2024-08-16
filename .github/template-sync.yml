@@ -36,7 +36,6 @@ files:
   - ".github/ISSUE_TEMPLATE/**/*"
   - ".github/PULL_REQUEST_TEMPLATE/**/*"
   - ".github/workflows/update-license.yml"
-  - ".devcontainer/**/*"
 
   # you probably want to exclude these files:
   - "!.github/workflows/dependabot-merge.yml"
