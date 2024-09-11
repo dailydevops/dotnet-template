@@ -29,6 +29,7 @@ files:
   - ".editorconfig"
   - ".gitattributes"
   - ".gitignore"
+  - "GitVersion.yml"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/FUNDING.yml"
