@@ -7,6 +7,7 @@ additional:
   - arguments
   - article.benchmarks
   - editorconfig
+  - extensions.data
   - extensions.hosting.winforms
   - extensions.strings
   - extensions.tasks
