@@ -14,6 +14,7 @@
     <Description></Description>
     <RepositoryUrl></RepositoryUrl>
     <PackageProjectUrl></PackageProjectUrl>
+    <PackageReleaseNotes>$(RepositoryUrl)/releases</PackageReleaseNotes>
     <PackageTags></PackageTags>
     <CopyrightYearStart>2024</CopyrightYearStart>
   </PropertyGroup>
