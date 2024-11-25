@@ -6,7 +6,7 @@ additional:
   - archiduct
   - arguments
   - article.benchmarks
-  - editorconfig
+  - defaults
   - extensions.data
   - extensions.hosting.winforms
   - extensions.strings
