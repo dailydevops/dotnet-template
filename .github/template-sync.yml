@@ -27,7 +27,6 @@ additional:
 files:
   - "!**/*"
   - ".commitlintrc"
-  - ".editorconfig"
   - ".gitattributes"
   - ".gitignore"
   - "GitVersion.yml"
