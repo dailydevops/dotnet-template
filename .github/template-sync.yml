@@ -31,7 +31,6 @@ files:
   - ".gitattributes"
   - ".gitignore"
   - "GitVersion.yml"
-  - "logo.png"
   - ".github/CODEOWNERS"
   - ".github/dependabot.yml"
   - ".github/FUNDING.yml"
