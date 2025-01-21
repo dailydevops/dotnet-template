@@ -2,26 +2,7 @@
 # Counter: 2
 
 additional:
-  - analyzer
-  - archiduct
-  - arguments
-  - article.benchmarks
-  - defaults
-  - extensions.data
-  - extensions.hosting.winforms
-  - extensions.strings
-  - extensions.tasks
-  - extensions.test
-  - fluentvalue
-  - guard
-  - healthchecks
-  - http.correlation
-  - logging.abstractions
-  - logging.measurement
-  - logging.xunit
-  - projectbuilders
-  - sequentialguid
-  - socks
+  - "forgingblazor/template-dotnet"
 
 files:
   - "!**/*"
