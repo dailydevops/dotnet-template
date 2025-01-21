@@ -1,9 +1,6 @@
 # Every time I update this file without changing the content, I increment this counter.
 # Counter: 2
 
-additional:
-  - "forgingblazor/template-dotnet"
-
 files:
   - "!**/*"
   - ".commitlintrc"
