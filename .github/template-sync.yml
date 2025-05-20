@@ -9,6 +9,7 @@ files:
   - "GitVersion.yml"
   - "testEnvironments.json"
   - ".github/CODEOWNERS"
+  - ".github/copilot-instructions.md"
   - ".github/dependabot.yml"
   - ".github/FUNDING.yml"
   - ".github/release-drafter.yml"
