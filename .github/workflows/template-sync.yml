@@ -9,6 +9,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   template-sync:
     if: github.actor != 'dependabot[bot]' && github.repository == 'dailydevops/dotnet-template'
