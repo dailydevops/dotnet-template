@@ -4,6 +4,7 @@
 files:
   - "!**/*"
   - ".commitlintrc"
+  - ".csharpierignore"
   - ".gitattributes"
   - ".gitignore"
   - "GitVersion.yml"
