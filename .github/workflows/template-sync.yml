@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: ahmadnassri/action-template-repository-sync@v2.6.8
+      - uses: ahmadnassri/action-template-repository-sync@v2.6.9
         with:
           github-token: ${{ secrets.TEMPLATE_SYNC }}
           dry-run: false
