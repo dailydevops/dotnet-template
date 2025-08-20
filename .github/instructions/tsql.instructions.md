@@ -71,7 +71,12 @@ Follow these T-SQL coding conventions for consistency across the project.
 * MUST use descriptive names that clearly indicate the procedure's purpose.
 * MUST use plural nouns when returning multiple records (e.g., `sp_GetProducts`).
 * MUST use singular nouns when returning a single record (e.g., `sp_GetProduct`).
-* MUST include the entity name in the procedure name for clarity (e.g., `sp_CreateCustomer`, `sp_UpdateOrder`).
+* MUST prefix stored procedure names with `usp_` (e.g., `usp_GetCustomerOrders`).
+* MUST use PascalCase for stored procedure names.
+* MUST use descriptive names that clearly indicate the procedure's purpose.
+* MUST use plural nouns when returning multiple records (e.g., `usp_GetProducts`).
+* MUST use singular nouns when returning a single record (e.g., `usp_GetProduct`).
+* MUST include the entity name in the procedure name for clarity (e.g., `usp_CreateCustomer`, `usp_UpdateOrder`).
 
 ### Parameter Handling
 
