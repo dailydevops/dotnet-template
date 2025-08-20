@@ -1,5 +1,5 @@
 ---
-applyTo: '**/*.instructions.md, .github/copilot-instructions.md, decisions/**/*.md'
+applyTo: '.github/copilot-instructions.md, .github/instructions/*.instructions.md, decisions/**/*.md'
 
 description: 'This file contains instructions for wording and writing style.
   It includes guidelines for creating and modifying instruction files, decision documents, and Copilot instructions.
