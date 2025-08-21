@@ -24,7 +24,7 @@ jobs:
   all:
     if: github.run_id != 1
     name: Build & Tests
-    uses: dailydevops/pipelines/.github/workflows/build-dotnet-single.yml@1.0.32
+    uses: dailydevops/pipelines/.github/workflows/build-dotnet-single.yml@1.0.45
     with:
       disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
