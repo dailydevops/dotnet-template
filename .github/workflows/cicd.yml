@@ -26,9 +26,7 @@ jobs:
     name: Build & Tests
     uses: dailydevops/pipelines/.github/workflows/build-dotnet-single.yml@1.1.10
     with:
-      disablePublish: true
-      dotnet-logging: ${{ inputs.dotnet-logging }}
-      dotnet-version: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
-      enableSonarQube: ${{ vars.NE_DOTNET_SONAR }}
+      dotnetLogging: ${{ inputs.dotnet-logging }}
+      dotnetVersion: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
       solution: ###SOLUTION###
     secrets: inherit
