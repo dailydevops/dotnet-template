@@ -8,6 +8,7 @@ files:
   - ".gitattributes"
   - ".gitignore"
   - ".mcp.json"
+  - "AGENTS.md"
   - "GitVersion.yml"
   - "nuget.config"
   - "testEnvironments.json"
