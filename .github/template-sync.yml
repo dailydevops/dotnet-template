@@ -10,6 +10,7 @@ files:
   - ".mcp.json"
   - "AGENTS.md"
   - "GitVersion.yml"
+  - "global.json"
   - "nuget.config"
   - "testEnvironments.json"
   - ".github/CODEOWNERS"
