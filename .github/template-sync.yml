@@ -12,6 +12,7 @@ files:
   - "GitVersion.yml"
   - "global.json"
   - "nuget.config"
+  - "renovate.json"
   - "testEnvironments.json"
   - ".github/CODEOWNERS"
   - ".github/copilot-instructions.md"
