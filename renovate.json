@@ -13,16 +13,16 @@
   "automergeType": "pr",
   "automergeStrategy": "squash",
   "enabledManagers": [
-    "ci",
+    "github-actions",
     "nuget",
     "custom.regex"
   ],
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "/\\.(?:cs|fs|vb)proj$/",
-        "/\\.(?:props|targets)$/"
+      "fileMatch": [
+        "\\.(?:cs|fs|vb)proj$",
+        "\\.(?:props|targets)$"
       ],
       "matchStrings": [
         "<PackageReference\\s+Include=\"(?<depName>[^\"]+)\"\\s+Version=\"\\[(?<currentValue>[^,]+),.*\"",
@@ -51,7 +51,7 @@
     },
     {
       "matchManagers": [
-        "ci"
+        "github-actions"
       ],
       "labels": [
         "dependency:actions"
