@@ -18,9 +18,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
 
-      - uses: ahmadnassri/action-template-repository-sync@v2.6.10
+      - uses: ahmadnassri/action-template-repository-sync@3dbe8f75504de32c7dab84dd6820b94ba9e98708 # v2.6.10
         with:
           github-token: ${{ secrets.TEMPLATE_SYNC }}
           dry-run: false
