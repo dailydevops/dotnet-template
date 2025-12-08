@@ -5,11 +5,14 @@ on:
     types:
       - closed
 
+permissions:
+  contents: read
+
 jobs:
   cleanup:
     name: Clear cache
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
