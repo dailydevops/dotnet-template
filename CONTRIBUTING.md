@@ -12,7 +12,7 @@ All contributions must follow the rules below to stay consistent with our automa
 ## Commit messages (required)
 Commit messages **must** follow the [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) format:
 
-```
+```text
 <type>[optional scope]: <description>
 ```
 
