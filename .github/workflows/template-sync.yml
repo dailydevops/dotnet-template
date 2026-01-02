@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   template-sync:
-    if: github.actor != 'dependabot[bot]' && github.repository == 'dailydevops/template-dotnet'
+    if: github.repository == 'dailydevops/template-dotnet'
     runs-on: ubuntu-latest
 
     steps:
