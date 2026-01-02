@@ -9,6 +9,7 @@ files:
   - ".gitignore"
   - ".mcp.json"
   - "AGENTS.md"
+  - "CODE_OF_CONDUCT.md"
   - "CONTRIBUTING.md"
   - "GitVersion.yml"
   - "global.json"
