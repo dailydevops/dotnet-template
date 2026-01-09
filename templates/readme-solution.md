@@ -259,7 +259,6 @@ Replace 'YourRepo' with actual repository name.
 -->
 
 * **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/dailydevops/YourRepo/issues)
-* **Discussions**: Join the conversation on [GitHub Discussions](https://github.com/dailydevops/YourRepo/discussions)
 * **Documentation**: Read the full documentation in this repository
 
 ## License
